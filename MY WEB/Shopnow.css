@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; /* Change font to Times New Roman */
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    border-bottom: 2px solid white; /* Change border color to white */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: white; /* Set text color to white */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    border: 4px solid white; /* Increase border width */
+    padding: 10px;
+    width: 350px; /* Adjust width of the container */
+    margin: auto;
+}
+
+#luxury-car-image {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 5px; /* Add border radius */
+    border: 2px solid white; /* Add border around the image */
+}
+
+#luxury-car-image:hover {
+    transform: scale(1.05);
+}
+
+.background-image {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

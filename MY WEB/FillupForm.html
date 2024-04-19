@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealership Form</title>
+    <link rel="stylesheet" href="FillupForm.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="container">
+            <form class="car-dealership-form" id="car-dealership-form">
+                <h2>Car Dealership Form</h2>
+                <div class="form-group">
+                    <label for="name">Name of the Buyer:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+                <div class="form-group">
+                <div class="form-group">
+                    <label for="payment-method">Payment Method:</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="">Select Payment Method</option>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="debit-card">Debit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank-transfer">Bank Transfer</option>
+                        <option value="cash">Cash</option>
+                        <option value="finance">Finance</option>
+                    </select>
+                </div>
+                <div class="form-group card-option">
+                    <label for="card-option">Card Option:</label>
+                    <input type="text" id="card-option" name="card-option" placeholder="Enter card type">
+                </div>
+                <!-- Additional fields such as color preference, features, etc. can be added here -->
+                <div class="form-group">
+                    <button type="submit" id="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="FillupForm.js"></script>
+</body>
+</html>

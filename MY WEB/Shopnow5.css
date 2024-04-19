@@ -1,0 +1,74 @@
+/* styles.css */
+
+.background-container {
+    background-image: url('file:///C:/Users/Eric/Pictures/rolls%20joyce.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-details-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: 2px solid #333; /* Black border */
+    border-radius: 10px;
+    max-width: 800px;
+    display: flex;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.car-image {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #ccc; /* Light gray border */
+}
+
+.car-image img {
+    width: 100%;
+    height: auto;
+}
+
+.car-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.car-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car-details p {
+    margin-bottom: 15px;
+}
+
+.car-details ul {
+    padding-left: 20px;
+}
+
+.car-details ul li {
+    list-style: none;
+}
+
+.car-details ul li::before {
+    content: "•";
+    margin-right: 5px;
+    color: #333;
+}
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
